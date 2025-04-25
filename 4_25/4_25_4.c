@@ -4,10 +4,10 @@ int main(void){
     scanf("%d",&num);
     if (num % 2 == 0)
     {
-        printf("偶数です\n");/* code */
+        printf("%dは偶数です\n",num);/* code */
     }
     else{
-        printf("奇数です\n");
+        printf("%dは奇数です\n",num);
     }
 return 0;    
 }
