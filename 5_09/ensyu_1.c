@@ -3,7 +3,7 @@
 int main(void){
     int A,B,D;
     char C;
-    scanf("%d %d %c",&A,&,B,&C);
+    scanf("%d %d %c",&A,&B,&C);
 switch (C){
 case '+':
 printf("%d\n",A+B);
@@ -11,21 +11,19 @@ printf("%d\n",A+B);
 case '-':
 printf("%d\n",A-B);
     break;
-case '*'
+case '*':
 printf("%d\n",A*B);
     break;
 case '/':
-if (B != 0)
-{
-    /* code */
+D = A%B;
+if (D != 0){
+    printf("%d\n",D);
 }
-
-printf("%d\n",A/B);
-    break;
-
-            
-
+else{
+    printf("%d\n",A/B);
+}
 default:
-    break;
+ printf("Invalid operator");
+ break;
 }
 }
