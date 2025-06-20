@@ -1,8 +1,8 @@
 /* 全体の背景とフォント設定 */
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #ffe7e7;
+  color: #000000;
   line-height: 1.6;
   padding: 20px;
 }
@@ -24,8 +24,10 @@ h2 {
 }
 
 h3, h6 {
-  font-weight: normal;
+  font-weight: ＭＳ Ｐ明朝;
   color: #555;
+  margin-top: 30px;
+  border-left: 5px solid #7ee764;
 }
 
 /* strongタグとfontタグの表示 */
