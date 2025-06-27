@@ -1,6 +1,7 @@
 /* 全体の背景とフォント設定 */
 body {
   font-family: "cursive", sans-serif;
+  background-color:#ffd5ca;
   color: #000000;
   line-height: 1.6;
   padding: 20px;
