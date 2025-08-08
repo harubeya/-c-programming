@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>夏休みの課題</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2 align="center">夏休み何したクイズ</h2>
+        <h1 align="center">問題:1</h1>
+        <h3 class="question" align="center">この夏休みの宿題をいつしたでしょうか</h3>
+        <div class="answer" align="center">
+            <button class="answer" onclick="checkAnswer('a')">A. 8月31日</button>
+            <button class="answer" onclick="checkAnswer('b')">B. 8月30日</button>
+            <button class="answer" onclick="checkAnswer('c')">C. 8月29日</button>
+            <button class="answer" onclick="checkAnswer('d')">D. 8月28日</button>
+        </div>
+    <div class="result" id="result"></div>
+    </body>
+    <script>
+    function checkAnswer(answer) {
+    const correct = "a";
+    const result = document.getElementById("result");
+
+    if (answer === correct) {
+        result.textContent = "正解";
+        result.style.color = "green";
+    } else {
+        result.textContent = "不正解。";
+        result.style.color = "red";
+    }
+    }
+  </script>
+
+</body>
+</html>
